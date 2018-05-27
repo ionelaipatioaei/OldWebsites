@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap 4 | Generic site</title>
+
+        <link rel="stylesheet" href="../bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="d-flex flex-row">
+                        <i class="fab fa-joomla fa-2x text-info align-self-start"></i>
+                        <p class="align-self-end" id="brand-text">JoinUs</p>
+                    </div>
+                </a>
+                <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#menu"><span class="navbar-toggler-icon"></span></button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#discover">Discover</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#share">Share</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="card card-info text-center p-4">
+                            <div class="card-block">
+                                <h3>Sing Up</h3>
+                                <p>Make a new account and enjoy!</p>
+
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="text" name="username" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="email" name="email" placeholder="name@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="password" name="password" placeholder="Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control form-control-lg" type="password" name="passwordConfirm" placeholder="Confirm Password">
+                                    </div>
+                                    <input type="submit" value="Submit" class="btn btn-outline-info">
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-8 text-white">
+                        <h1 class="text-center p-3">Join today and enjoy forever!</h1>
+
+                        <div class="d-flex flex-row">
+                            <div class="p-3 align-self-start">
+                                <i class="far fa-check-circle fa-4x text-info"></i>
+                            </div>
+                            <div class="p-3 align-self-end">
+                                <p class="d-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-row">
+                            <div class="p-3 align-self-start">
+                                <i class="far fa-check-circle fa-4x text-info"></i>
+                            </div>
+                            <div class="p-3 align-self-end">
+                                <p class="d-inline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Discover -->
+        <section id="discover">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center m-5">
+                        <h1 class="display-4 pb-2">Discover</h1>
+                        <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <a class="btn btn-outline-info" href="#">Start Now!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="discover-showcase">
+            <div class="container">
+                <div class="row mx-5">
+                    <div class="col-md-12 col-lg-6">
+                        <img class="float-left py-5" src="discover.jpg" alt="discover-image">
+                    </div>
+                    <div class="col-md-12 col-lg-6 text-center">
+                        <h2 class="pt-5">What can I discover?</h2>
+                        <i class="fas fa-bicycle fa-7x text-muted"></i>
+                        <p class="p-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Share -->
+        <section id="share">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center m-5">
+                        <h1 class="display-4 pb-2">Share</h1>
+                        <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-info active" type="button">Share on</button>
+                            <button class="btn btn-outline-info" type="button"><i class="fab fa-facebook fa-2x"></i></button>
+                            <button class="btn btn-outline-info" type="button"><i class="fab fa-twitter fa-2x"></i></button>
+                            <button class="btn btn-outline-info" type="button"><i class="fab fa-reddit fa-2x"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="share-showcase">
+            <div class="container">
+                <div class="row mx-5">
+                    <div class="col-md-12 col-lg-7 text-center">
+                        <h2 class="pt-5">Share your story!</h2>
+                        <i class="fas fa-bullhorn fa-7x text-secondary"></i>
+                        <p class="p-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <img class="float-left py-5" src="share.jpg" alt="discover-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <footer id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h1 class="display-4 pt-2">JoinUs</h1>
+                        <p>Copyright &copy; 2018</p>
+                        <div class="pb-4">
+                            <button class="btn btn-secondary" type="button" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal" id="contactModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Send us a message!</h5>
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" placeholder="name@example.com" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Your message here..."></textarea>
+                            </div>
+                        </form>
+                    </div>
+                <div class="modal-footer">
+                    <button class="btn btn-outline-danger" data-dismiss="modal">Close</button>
+                    <button class="btn btn-outline-info">Send</button>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="../bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>

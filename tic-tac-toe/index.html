@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Colorful Tic-Tac-Toe</title>
+		<link rel="icon" href="../assets/logo.png">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+
+		<!-- Game -->
+		<section id="game">
+			<h1 id="header-text" class="z-depth-3 center-align">Colorful Tic-Tac-Toe</h1>
+			<div class="container center-align">
+
+				<div id="controlMenu" class="row">
+					<div class="col s12">
+						<p id="colDesc">Player one color | Player two color</p>
+						<input id="p1Color" type="color">
+
+						<input id="p2Color" type="color">
+						<span id="p1Score">0</span>
+						<span id="p2Score">0</span>
+					</div>
+
+					<div class="col s12">
+						<button id="reset" class="btn waves-effect waves-light btn-small">Reset</button>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col s12">
+						<div id="cells">
+							<h1 class="center-align">text</h1>
+							
+							<div class="cell">0</div>
+							<div class="cell">1</div>
+							<div class="cell">2</div>
+
+							<div class="cell">3</div>
+							<div class="cell">4</div>
+							<div class="cell">5</div>
+
+							<div class="cell">6</div>
+							<div class="cell">7</div>
+							<div class="cell">8</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <h4>Colorful Tic-Tac-Toe | VoidEncrypt</h4>
+                        <a class="btn waves-effect waves-light btn-small cyan darken-1" href="https://voidencrypt.com">Main page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+                  <p class="center-align">&copy; VoidEncrypt 2018</p>
+              </div>
+            </div>
+        </footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+	    <script src="script.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+#home {
+    background: url("bg.jpg") no-repeat center top fixed;
+    min-height: 550px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#home .container {
+    padding-top: 60px;
+}
+
+#brand-text {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#discover-showcase{
+    background-color: #17A2B8;
+    min-height: 200px;
+}
+
+#share-showcase {
+    background-color: #f4f4f4;
+    min-height: 200px;
+}
+
+#discover-showcase img, #share-showcase img {
+    border-radius: 75%;
+    width: 100%;
+}
+
+footer {
+    background-color: #17A2B8;
+}

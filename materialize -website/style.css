@@ -1,0 +1,36 @@
+#home {
+    background: url("bg.jpg") no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: #26A69A;
+    opacity: 0.9;
+}
+
+#menu-icon {
+    padding-top: 20px;
+}
+
+#main-text {
+    margin-top: 60px;
+}
+
+/* Fix colors */
+.input-field input + label, label {
+    color: #000 !important;
+}
+
+.input-field input:focus + label, textarea:focus + label {
+   color: #000 !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #00796b !important;
+   box-shadow: 0 1px 0 0 #00796b !important
+}
+
+#footer-contact {
+    background-color: #26a69a;
+ }

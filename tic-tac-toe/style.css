@@ -1,0 +1,82 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1.2em !important;
+    background-color: #e0f2f1;
+}
+
+#header-text {
+	background-color: #00838f;
+	padding: 16px;
+	margin: 0;
+	margin-bottom: 16px;
+	color: #ffffff;
+}
+
+#reset {
+	margin-top: 4px;
+}
+
+input[type=color] {
+	border: none;
+	padding: 0;
+	margin: 16px;
+	height: 32px;
+	width: 96px;
+}
+
+#controlMenu {
+	margin-bottom: 0;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#colDesc {
+	margin: 8px auto;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+#p1Score, #p2Score {
+	display: flex;
+	font-size: 40px;
+} 
+
+#p1Score {
+	float: left;
+}
+
+#p2Score {
+	float: right;
+}
+
+#cells {
+	max-width: 500px;
+	margin: 16px auto;
+}
+
+.cell {
+	width: 33.33%;
+	padding-top: 33.33%;
+	border: 2px solid #e0f2f1;
+	border-radius: 5%;
+	background: #b0bec5;
+	float: left;
+	font-size: 0;
+
+    transition-property: background;
+    transition-duration: 0.5s;
+}
+
+#cells h1 {
+	margin: 0 0 16px 0;
+	font-size: 2.5em;
+}
+
+#game {
+	margin-bottom: 48px;
+}
+
+.page-footer {
+	background-color: #00838f;
+}
